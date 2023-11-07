@@ -1,9 +1,8 @@
 package ru.loader.bingarraysimageloader.internet;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import java.io.*;
 import java.net.URL;
+import java.nio.file.Files;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -91,5 +90,15 @@ public class BingSearch {
 
     private int controlValue(int num){
         return num < 10 ? 10 : (Math.min(num, 101));
+    }
+
+    private void save(){
+        /*URL url = new URL(line);
+        InputStream inputStream = url.openStream();
+        File file = new File("D:/img/" + line.substring(line.length()/2, line.length()/2+10) + ".jpg");
+        if(!file.exists()) {
+            System.out.println("save: " + file.toPath());
+            Files.copy(inputStream, file.toPath());
+        }*/
     }
 }
