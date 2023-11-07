@@ -99,6 +99,7 @@ public class BingSearch {
         if(!file.exists()) {
             System.out.println("save: " + file.toPath());
             Files.copy(inputStream, file.toPath());
+            TOUSTED
         }*/
     }
 }
