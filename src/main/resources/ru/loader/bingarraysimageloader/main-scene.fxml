@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.media.MediaView?>
+
+<AnchorPane fx:id="anchorId" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.loader.bingarraysimageloader.MainController">
+   <children>
+      <Button fx:id="enterButton" layoutX="1159.0" layoutY="665.0" mnemonicParsing="false" prefWidth="107.0" text="Начать загрузку" AnchorPane.bottomAnchor="30.0" AnchorPane.rightAnchor="30.0" />
+      <Button fx:id="directoryChooser" layoutX="1091.0" layoutY="665.0" mnemonicParsing="false" text="Обзор" AnchorPane.bottomAnchor="30.0" AnchorPane.rightAnchor="142.0" />
+      <TextField fx:id="pathArea" layoutX="22.0" layoutY="669.0" prefHeight="25.0" prefWidth="1050.0" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="200.0" />
+      <Label layoutX="30.0" layoutY="647.0" prefHeight="17.0" prefWidth="116.0" text="Где будет сохранено" AnchorPane.bottomAnchor="56.0" AnchorPane.leftAnchor="30.0" />
+      <TextField fx:id="searchField" layoutX="111.0" layoutY="30.0" prefHeight="25.0" prefWidth="390.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="30.0" />
+      <Label layoutX="30.0" layoutY="14.0" prefHeight="17.0" prefWidth="80.0" text="Ваш запрос: " AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="14.0" />
+      <ListView fx:id="information" layoutX="674.0" layoutY="93.0" prefHeight="550.0" prefWidth="580.0" AnchorPane.bottomAnchor="85.0" AnchorPane.leftAnchor="655.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="85.0" />
+   </children>
+</AnchorPane>
